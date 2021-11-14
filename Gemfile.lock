@@ -2,10 +2,14 @@ PATH
   remote: .
   specs:
     site_indexer (0.1)
+      nokogiri (~> 1.12)
 
 GEM
   remote: https://rubygems.org/
   specs:
+    nokogiri (1.12.5-x86_64-linux)
+      racc (~> 1.4)
+    racc (1.6.0)
     rake (13.0.6)
 
 PLATFORMS
